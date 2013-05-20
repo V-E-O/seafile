@@ -45,6 +45,9 @@ struct _SeafRepoManagerPriv {
 static const char *ignore_table[] = {
     "*~",
     "*#",
+    /* python byte-compiled files */
+    "*.pyc",
+    "*.pyo",
     /* -------------
      * windows tmp files
      * -------------
